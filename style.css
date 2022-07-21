@@ -44,7 +44,6 @@ header {
     background-image: url(./img/CapturadePantalla2022-07-20ala\(s\)16.48.14.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,6 +87,7 @@ header {
 }
 .frasebox p {
     padding: 20px;
+    font-size:24px !important;
 }
 
 .info-cards {
