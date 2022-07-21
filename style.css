@@ -82,7 +82,7 @@ header {
     text-align: center;
     color: black;
     padding: 10px;
-    background-image: url(./img/f1.png);
+    background-image: url(./img/imagena.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +130,23 @@ header {
     font-family: var(--font-secundaria);
     text-decoration: none;
 }
-.frase .boton {
+.frase2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    background-image: url(./img/imagenb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.frase2 .boton {
     background-color:var(--color-terciario);
     padding: 10px 28px;
     border-radius: 50px;
