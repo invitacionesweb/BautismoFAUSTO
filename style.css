@@ -98,7 +98,7 @@ header {
 
 }
 .frasebox p {
-    padding: 40px 60px;
+    padding: 40px;
     
     font-size:24px !important;
 }
@@ -138,9 +138,27 @@ header {
     color: var(--color-terciario);
     font-family: var(--font-secundaria);
     text-decoration: none;
-    
+}
+
+.frasebox2 {
+    background-image: url(./img/fondouno.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    max-width: 520px;
+    color: var(--color-principal);
 
 }
+.frasebox2 p {
+    padding: 40px 60px;
+    
+    font-size:24px !important;
+}
+
 footer {
     width: 100%;
     height: auto;
