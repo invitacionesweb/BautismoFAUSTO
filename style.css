@@ -82,19 +82,19 @@ header {
     text-align: center;
     color: black;
     padding: 10px;
-
-}
-.frasebox {
-    background-image: url(./img/fondouno.png);
-    background-size: contain;
+    background-image: url(./img/f1.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.frasebox {
+
     padding: 30px 0;
     width: 100%;
     height: auto;
     padding: 60px;
     max-width: 520px;
-    color: var(--color-principal);
+    color: var(--color-terciario);
 
 }
 .frasebox p {
@@ -131,31 +131,26 @@ header {
     text-decoration: none;
 }
 .frase .boton {
-    background-color: white;
+    background-color:var(--color-terciario);
     padding: 10px 28px;
     border-radius: 50px;
     font-size:14px !important;
-    color: var(--color-terciario);
+    color: white;
     font-family: var(--font-secundaria);
     text-decoration: none;
 }
 
 .frasebox2 {
-    background-image: url(./img/fondouno.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     padding: 30px 0;
     width: 100%;
     height: auto;
     padding: 60px;
     max-width: 520px;
-    color: var(--color-principal);
+    color: var(--color-terciario);
 
 }
 .frasebox2 p {
     padding: 40px 60px;
-    
     font-size:24px !important;
 }
 
