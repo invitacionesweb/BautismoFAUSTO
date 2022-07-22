@@ -1,7 +1,7 @@
 :root {
     --color-principal:white;
-    --color-secundario:#D6E3E7;
-    --color-terciario: #B8684D;
+    --color-secundario:#F2ECE7;
+    --color-terciario: #9E7846;
     --font-principal: 'Dawning of a New Day', cursive;
     --font-secundaria:'Schoolbell', cursive;
 }
@@ -28,15 +28,15 @@ h1 {
     padding: 0;
     margin: 0;
     font-family: var(--font-secundaria);
-    color: #9D4A2C;
+    color: var(--color-terciario);
     font-size:60px !important;
 }
 header p {
     padding: 0;
     margin: 0;
     font-family: var(--font-secundaria);
-    color: #9D4A2C;
-    font-size:34px !important;
+    color: var(--color-terciario);
+    font-size:24px !important;
 }
 header {
     width: 100%;
@@ -68,8 +68,8 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--color-terciario);
-    background-color:var(--color-secundario);
+    background-color: var(--color-terciario);
+    color:var(--color-secundario);
 }
 
 .frase {
@@ -82,6 +82,7 @@ header {
     text-align: center;
     color: black;
     padding: 10px;
+    background-color: var(--color-secundario);
     background-image: url(./img/imagena.png);
     background-size: cover;
     background-position: center;
@@ -111,6 +112,7 @@ header {
     justify-content: center;
     text-align: center;
     color: var(--color-terciario);
+    background-color: var(--color-secundario);
     background-image: url(./img/backgroundcards.png);
     background-size: cover;
     background-position: center;
@@ -122,11 +124,11 @@ header {
     padding-bottom: 30px;
 }
 .info-cards .boton {
-    background-color: var(--color-secundario);
+    background-color:var(--color-terciario);
     padding: 10px 28px;
     border-radius: 50px;
     font-size:14px !important;
-    color: var(--color-terciario);
+    color: white;
     font-family: var(--font-secundaria);
     text-decoration: none;
 }
@@ -144,6 +146,8 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: var(--color-secundario);
+
 }
 
 .frase2 .boton {
@@ -164,6 +168,7 @@ header {
     max-width: 520px;
     color: var(--color-terciario);
 
+
 }
 .frasebox2 p {
     padding: 40px;
@@ -174,7 +179,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: var(--color-secundario);
+    background-color: var(--color-terciario);
     color: var(--color-principal);
     padding: 40px;
 }
