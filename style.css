@@ -132,6 +132,16 @@ header {
     font-family: var(--font-secundaria);
     text-decoration: none;
 }
+.dresscode {
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
+    text-align: center;
+    padding: 20px 0;
+}
+.dresscode h2 {
+    color: var(--color-secundario);
+
+}
 .frase2 {
     width: 100%;
     height: auto;
